@@ -9,6 +9,8 @@ cd /vagrant
 echo cd \/vagrant > /home/vagrant/.bashrc
 rm -rf /etc/motd
 
+. ../common-bootstrap.sh
+
 echo Nancy on Mono >> /etc/motd
 echo +++++++++++++ >> /etc/motd
 echo >> /etc/motd
