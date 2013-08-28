@@ -18,4 +18,5 @@ apt-get install -y tmux
 apt-get install -y python-pip
 $AS_USER "pip install --user git+git://github.com/Lokaltog/powerline"
 
+$AS_USER "cp -rf .zshrc ~/.zshrc"
 
