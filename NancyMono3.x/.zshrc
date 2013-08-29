@@ -19,3 +19,5 @@ prompt_context() {
 bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
 
+export PATH="/opt/mono/bin:$PATH"
+export LD_LIBRARY_PATH="/opt/mono/lib:$LD_LIBRARY_PATH"
